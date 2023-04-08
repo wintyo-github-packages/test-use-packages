@@ -2,9 +2,6 @@ name: Test
 
 on: push
 
-permissions:
-  packages: read
-
 jobs:
   test:
     runs-on: ubuntu-22.04
