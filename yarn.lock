@@ -47,6 +47,11 @@
   resolved "https://registry.yarnpkg.com/@tsconfig/node16/-/node16-1.0.3.tgz#472eaab5f15c1ffdd7f8628bd4c4f753995ec79e"
   integrity sha512-yOlFc+7UtL/89t2ZhjPvvB/DeAr3r+Dq58IgzsFkOAvVC6NMJXmCGjbptdXdR9qsX7pKcTL+s87FtYREi2dEEQ==
 
+"@wintyo-github-packages/private-utils@^0.0.0":
+  version "0.0.0"
+  resolved "https://npm.pkg.github.com/download/@wintyo-github-packages/private-utils/0.0.0/b2fe6062298a284a66a21c2bcf66f66eb034d5b1#b2fe6062298a284a66a21c2bcf66f66eb034d5b1"
+  integrity sha512-Wg5FmLyZYL8h3dYey0i/yUhoaAbwVmyOTVqCNGprx4c5a/sQ/yeUfSP42xaqt7UJT5Sdq75LyjkNubLdol2Hkg==
+
 "@wintyo-github-packages/utils@^0.0.1":
   version "0.0.1"
   resolved "https://npm.pkg.github.com/download/@wintyo-github-packages/utils/0.0.1/6cfef194b49ea90a060b096034d46cd6db29236f#6cfef194b49ea90a060b096034d46cd6db29236f"
