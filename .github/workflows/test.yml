@@ -2,9 +2,6 @@ name: Test
 
 on: push
 
-permissions:
-  packages: read
-
 jobs:
   test:
     runs-on: ubuntu-22.04
@@ -20,7 +17,7 @@ jobs:
       - name: Setup npmrc
         run: ./setup.sh
         env:
-          GITHUB_PKG_TOKEN: ${{ secrets.NPM_GITHUB_PKG_TOKEN }}
+          GITHUB_PKG_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Install
         run: yarn install
