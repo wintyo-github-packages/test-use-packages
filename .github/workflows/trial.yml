@@ -1,9 +1,9 @@
-name: Test
+name: Trial
 
 on: push
 
 jobs:
-  test:
+  install-github-packages:
     runs-on: ubuntu-22.04
     steps:
       - name: Checkout
@@ -22,5 +22,5 @@ jobs:
       - name: Install
         run: yarn install
 
-      - name: Test
+      - name: Run
         run: yarn start
